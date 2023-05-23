@@ -1,0 +1,345 @@
+body{
+    background-color:white;
+    padding: 50px;
+}
+
+
+#img{
+    width: 53%;
+    border-radius: 50px;
+
+}
+.available{
+    margin-left: 58%;
+
+    margin-top: -25%;
+    font-size: 30px;
+    margin-right: 0px;
+}
+.available h1{
+    animation: slideLeft 3s ease forwards;
+    animation-delay: 1.3s;
+    color: green
+
+}
+@keyframes slideLeft{
+    0%{
+        transform: translateX(100px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+} 
+.available h2{
+    animation: slideTop 4s ease forwards;
+    animation-delay: 1.3s;
+    color: green
+
+}
+@keyframes slideTop{
+    0%{
+        transform: translateY(100px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+} 
+.available h3{
+    animation: slideRight 6s ease forwards;
+    animation-delay: 1.3s;
+
+}
+@keyframes slideRight{
+    0%{
+        transform: translateX(-100px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+} 
+.available span{
+    color: red;
+    font-size: 25px;
+    
+}
+.Product{
+    font-size: 30px;
+    text-align: center;
+
+}
+.Product h4{
+    animation: slideTop 8s ease forwards;
+    animation-delay: 1.3s;
+    color: darkgreen
+
+}
+#mama{
+    font-size: 25px;
+}
+.Product p{
+    color: green;
+}
+.Product span{
+    color: rgb(226, 16, 16);
+}
+@keyframes slideTop{
+    0%{
+        transform: translateY(100px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+
+/* }
+#img2{
+    width: 25%;
+    margin-left: 100px;
+}
+#img3{
+    width: 29%;
+    margin-left: 60%;
+    margin-top: -1100px;
+
+     */
+}
+#img2, #img3,#img4{
+    width: 30%;
+    margin: 8px;
+    border-radius: 70px;
+    
+}
+.images h5{
+    font-size: 30px;
+    text-align: center;
+    color: darkgreen;
+    margin: 20px;
+}
+
+.images h5 button{
+    font-size: 30px;
+    text-align: center;
+    color: darkgreen;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: green;
+    border: solid 5px;
+
+    
+
+    }
+hr{
+    color: darkgreen;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #F2F2F2; */
+}
+header {
+     background-color: white;
+      padding: 25px;
+}
+#logo{
+    margin-left:-90%;
+    width: 5vw;
+
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #66A80F; */
+}
+nav li {
+    float: left;
+    margin-left: 13%;
+}
+nav li a {
+    display: block;
+   color:#001701;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+nav li a:hover {
+    background-color: lightgreen;
+    transition: all 0.3s ease-in-out;
+    color: green;
+    border-radius: 20px;
+}
+.fruted{
+    display: flex;
+    
+    
+}
+.one{
+    
+    border-color: green;
+    color: darkred;
+    border: solid 5px;
+    background-color: red;
+    /* background-color: rgb(240, 240, 236); */
+    border-radius: 40px;
+    color: white;
+    
+    
+    
+}
+.two{
+    color: white;
+    border-radius: 40px;
+    margin-left: 40px;
+    color: darkred;
+    border: solid 5px;
+    background-color: red;
+    
+    /* background-color: rgb(240, 240, 236); */
+    
+    /* color: light red;
+    margin-left: 40px;
+    border: solid;
+    background-color: rgb(240, 240, 236); */
+    
+}
+.two  p{
+    margin-left: 20px;
+}
+
+.one p{
+    margin-left: 20px;
+}
+.fruted h1{
+    margin-left: 60px;
+}
+ 
+.fruted .one, h1{
+    animation: slideTop 10s ease forwards;
+    animation-delay: 1.3s;
+    color: rgb(241, 243, 241)
+
+}
+@keyframes slideTop{
+    0%{
+        transform: translateY(100px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+    
+
+    }
+     
+.fruted .two, h1{
+    animation: slideTop 10s ease forwards;
+    animation-delay: 1.3s;
+    color: rgb(221, 236, 221)
+
+}
+@keyframes slideTop{
+    0%{
+        transform: translateY(100px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+
+    }
+    .offer{
+        margin-left: 50%;
+        margin-top: 10%;
+        font-size: 30px;
+        color: white;
+    }
+    #imglast{
+width: 40%;
+margin-top: -32%;
+    }
+    .offer h1{
+        margin-bottom: 10%;
+        color: green;
+        
+    }
+    .offer p{
+color: red;
+    }
+    .serve h1{
+        text-align: center;
+        font-size: 50px;
+        color: green;
+    }
+    .services{
+        display: flex;
+        
+        font-size: 20px;
+    }
+    .services h1{
+        text-align: center;
+        color: green;
+    }
+    .home{
+        color: white;
+        border: solid 10px;
+        margin: 5px;
+        border-radius: 25px;
+        border-color: rgb(238, 238, 236) ;
+        background-color: red;
+    }
+    .boxes{
+        color: white;
+        border: solid 10px;
+        border-color: white;
+        margin: 5px;
+        border-radius: 25px;
+        border-color: rgb(248, 253, 248);
+        background-color: red;
+        
+
+    }
+    .support{
+        color: rgb(250, 241, 241);
+        border: solid 10px;
+        margin: 5px;
+        border-radius: 25px;
+        border-color: rgb(209, 223, 209);
+        background-color: red;
+    }
+    .support p{
+        margin-left: 20px;
+    }
+    .boxes p{
+        margin-left: 20px; 
+    }
+    .home p{
+        margin-left: 20px;
+        border-color: green;
+
+    }
+    
+
+    /* }
+    .offer{
+        margin-bottom: -14%;
+        margin-top: 30%;
+        
+    }
+    .offer p{
+       margin-left: 50%;
+    
+
+    
+       
+        
+    }
+    #imglast{
+        
+        
+        width: 40%;
+
+    }
+    .offer h1{
+        text-align: center;
+        margin-top: -10%; */
+    
